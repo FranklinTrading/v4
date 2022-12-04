@@ -101,9 +101,6 @@ Section:NewButton("Afk script" , "obtiene cosas mientras duermes", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/AntiAFK.lua'),true))()
 end)
 
-Section:NewButton("Estafar" , "estafa a personas con este script", function()
-loadstring(game:HttpGet("https://gist.githubusercontent.com/domdaobfuscater/09214a11b8a30bab47ceff281116195f/raw/40356a0ff4542a51283ab5de0a642233a6ceb6f9/gistfile1.txt"))()
-end)
 
 Section:NewButton("reunirse" , "unirse al mismo server", function()
 game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
@@ -129,7 +126,8 @@ end)
 
 Section:NewButton("teletrasportarte a alguien" , "teletrasporte", function()
 
-loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()end)
+loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+end)
 
 
  local Tab = Window:NewTab("script crackeado") local Section = Tab:NewSection("script de paga gratis")
